@@ -33,7 +33,3 @@ bool checkPalindrom (int number)
 }
 
 Console.WriteLine(checkPalindrom(number));
-
-
-
-
