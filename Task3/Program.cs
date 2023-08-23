@@ -8,6 +8,7 @@
 1 2 - 1 — результат работы метода.
 */
 
+// Не доделал (
 
 Console.Write("Введите размер массива: ");
 var linghtArr = Convert.ToInt32(Console.ReadLine());
@@ -49,22 +50,14 @@ void filter(int[] arr, int[] brr)
     var newArr = new List<int>();
     for (int i = 0; i < arr.Length; i++)
     {
-        //int count = 0;
         for (int j = 0; j < brr.Length; j++)
         {
             if (arr[i] != brr[j])
             { 
-        newArr.Add(i);
-
-            }// count++;
+            newArr.Add(i);
+            }
         }
-        //if (count == 0) newArr.Add(i);
     }
-
-    //for (int i = 0; i < newArr.Length; i++)
-    //{
-    //    Console.Write(crr[i]);
-    //}
 PrintCollection(newArr);
 }
 

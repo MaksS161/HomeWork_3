@@ -6,3 +6,20 @@
 полям через методы класса.
 */
 
+
+using System;
+
+using Task4;
+
+//class Program
+//{
+//    static void dis(string[] args)
+//    {
+        WebSite webSite = new WebSite();
+        webSite.DataEntry();
+        Console.WriteLine();
+        webSite.Print();
+//    }
+//}
+
+
