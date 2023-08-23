@@ -15,5 +15,3 @@ WebSite webSite = new WebSite();
 webSite.DataEntry();
 Console.WriteLine();
 webSite.Print();
-
-
