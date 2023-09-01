@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*Задание 6
+Создайте класс «Магазин». Необходимо хранить в
+полях класса: название магазина, адрес, описание профиля магазина, контактный телефон, контактный e-mail.
+Реализуйте методы класса для ввода данных, вывода
+данных, реализуйте доступ к отдельным полям через
+методы класса.
+*/
+
+using Task6;
+
+Shop shop = new Shop();
+shop.DataEntry();
+Console.WriteLine();
+Console.WriteLine();
+shop.PrintInfo();

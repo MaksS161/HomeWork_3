@@ -1,4 +1,6 @@
-﻿using System;
+﻿/// 
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -62,6 +64,7 @@ class Journal
     {
         return email;
     }
+
     public void DataEntry()
     {
         Console.Write("Введите название журнала: ");

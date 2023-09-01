@@ -17,7 +17,7 @@ var arr = new int[linghtArr];
 
 for (int i = 0; i < arr.Length; i++)
 {
-    arr[i] = Convert.ToInt32(Console.ReadLine());
+    arr[i] =Convert.ToInt32(Console.ReadLine());
 }
 Console.Write("Введенный массив ");
 PrintCollection(arr);
@@ -53,12 +53,11 @@ void filter(int[] arr, int[] brr)
         for (int j = 0; j < brr.Length; j++)
         {
             if (arr[i] != brr[j])
-            { 
-            newArr.Add(i);
+            {
+                newArr.Add(i);
             }
         }
     }
-PrintCollection(newArr);
+    PrintCollection(newArr);
 }
 
-filter(arr, brr);
